@@ -11,11 +11,22 @@ body {
         "wdth" 100;
 }
 
+.center {
+    border: 3px solid rgb(212, 103, 216);
+    text-align: center;
+    display: block;
+    align-self: center;
+}
+
+.intro {
+    text-align: center;
+}
+
 .main-photo {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 50%;
 }
 
 .main-photo2 {
@@ -24,4 +35,32 @@ body {
     margin-right: auto;
     height: 75%;
     width: 70%;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Style the header */
+.header {
+
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+
+/* Container for flexboxes */
+.row {
+    display: -webkit-flex;
+    display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 10px;
+    height: 300px;
+    /* Should be removed. Only for demonstration */
 }
