@@ -1,0 +1,27 @@
+body {
+    background-color: #b5cd5a;
+}
+
+.sour-gummy {
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.main-photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.main-photo2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 75%;
+    width: 70%;
+}
